@@ -54,3 +54,19 @@ h3
   margin-left: auto;
 }
 
+
+
+.container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+input,
+button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
