@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gestió de Llibres</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>📚 Gestió de llibres</h1>
+    <p class="auth-link">¿No tienes cuenta? <a href="./register.html">Registrate</a></p>
+  </header>
+
+  <section id="formSection" class="hidden">
+    <input type="hidden" id="bookId">
+    <input type="text" id="title" placeholder="Títol">
+    <input type="text" id="author" placeholder="Autor">
+    <input type="number" id="year" placeholder="Any">
+  </section>
+
+  <main id="cardsContainer"></main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
